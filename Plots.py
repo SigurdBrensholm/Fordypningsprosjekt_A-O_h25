@@ -5,7 +5,7 @@ import os
 
 def main():
     # Mappen der filene ligger
-    folder = "./data"   # <-- bytt til riktig sti
+    folder = "NO1_FCR_Volumes"   # <-- bytt til riktig sti
 
     # Finn alle csv-filer som matcher mønsteret
     files = glob.glob(os.path.join(folder, "GUI_BALANCING_OFFERS_AND_RESERVES_*.csv"))
